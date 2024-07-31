@@ -1,0 +1,72 @@
+
+.centerTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #568792;
+    box-sizing: border-box;
+    table{
+        width: 500px;
+        text-align: center;
+        background-color: #51535680;
+        border-radius: 15px 15px 15px 15px;
+        color: #abcdef;
+        box-shadow: 0px 15px 15px 8px #abcdef;
+        .dataRow{
+            td{
+                background-color: #6c6530;
+                width: 150px;
+                .btn1{
+                    width: 100px;
+                    border: none;
+                    outline: none;
+                    border-radius: 10px;
+                    padding: 8px 23px;
+                    background-color: #0829ba;
+                    color: #65bfdb;
+                    text-shadow: 1px 1px 1px #9a3fce7c;
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        background-color: #197915;
+                        color: #acf3b4;
+                        text-shadow: 1px 1px 1px #9a3fce7c;
+                    }
+                }
+                .btn2{
+                    border: none;
+                    outline: none;
+                    border-radius: 10px;
+                    padding: 8px 23px;
+                    background-color: #0829ba;
+                    color: #65bfdb;
+                    text-shadow: 1px 1px 1px #9a3fce7c;
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        background-color: #a80000;
+                        color: #acf3b4;
+                        text-shadow: 1px 1px 1px #9a3fce7c;
+                    }
+                }
+            }
+        }
+    }
+    .btn1{
+        width: 200px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        padding: 8px 23px;
+        background-color: #0829ba;
+        color: #65bfdb;
+        text-shadow: 1px 1px 1px #9a3fce7c;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            background-color: #160664;
+            color: #acf3b4;
+            box-shadow: 1px 10px 10px #ef1b5b7c;
+            transition: 0.5s ease-in-out;
+        }
+    }
+}
+

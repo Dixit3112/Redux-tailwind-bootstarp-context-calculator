@@ -1,0 +1,36 @@
+.Header{
+    height: 100px;
+    background: #464646;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    .logoImg{
+        img{
+            margin: 0 0 0 10px;
+            padding: 0;
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .heading{
+        h2{
+            font-size: 35px;
+            color: aquamarine;
+        }
+    }
+    nav{
+        padding-right: 50px;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        .text{
+            text-decoration: none;
+            p{
+                color: #6ee93d;
+            }
+        }
+    }
+}
